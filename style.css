@@ -1,3 +1,21 @@
-body {
+.calc-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
     background: red;
+    border: black solid 3px;
+}
+
+.calc-grid > button {
+    background: pink;
+    border: green solid 3px;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-4 {
+    grid-column: span 4;
+    background-color: aqua;
 }
